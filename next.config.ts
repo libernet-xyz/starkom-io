@@ -3,6 +3,7 @@ import withFlowbiteReact from "flowbite-react/plugin/nextjs";
 import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
+  output: "export",
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 };
 
