@@ -10,11 +10,11 @@ arbitrary columns, arbitrarily shaped gates, arbitrary gate constraints, and eve
 
 Starkom runs on an ad hoc 256-bit finite field called **BlueSky**, whose order is the prime
 `0x7ffffffffffffffffffffffffffffffe0673ddf29e9b5547c000000000000001`. The field has been designed
-with both 2-adicity and 3-adicity, allowing for binary and ternary NTTs and FRI folding. The ternary
-protocol is optimal for recursion since it minimizes hash traces, and for some circuit sizes can be
-much faster for both the prover and the verifier.
+with both 2-adicity and 3-adicity, allowing for both binary and ternary NTTs and FRI folding. The
+ternary protocol is optimal for recursion since it minimizes hash traces, and for certain circuit
+sizes can be much faster for both the prover and the verifier.
 
-Starkom is primarly written in Rust and is highly modular. Its EVM verifier is written in Solidity
+Starkom is primarily written in Rust and is highly modular. Its EVM verifier is written in Solidity
 and JavaScript bindings are being developed.
 
 ## Modules
