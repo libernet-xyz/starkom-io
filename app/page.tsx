@@ -115,7 +115,7 @@ export default function Home() {
             zkSTARK Engine
           </h1>
           <p className="max-w-[460px] text-[1.02rem] leading-[1.6] text-white/60">
-            Starkom is a cutting-edge, quantum-resistant, natively recursive
+            Starkom is an advanced, quantum-resistant, natively recursive
             zkSTARK engine, and the cryptographic backbone of{" "}
             <a
               href={LIBERNET}

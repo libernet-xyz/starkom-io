@@ -17,7 +17,7 @@ const stackSansHeadline = Stack_Sans_Headline({
 export const metadata: Metadata = {
   title: "Starkom — Quantum Resistant zkSTARK Engine",
   description:
-    "Starkom is a cutting-edge, quantum-resistant, natively recursive zkSTARK engine, and the cryptographic backbone of Libernet.",
+    "Starkom is an advanced, quantum-resistant, natively recursive zkSTARK engine, and the cryptographic backbone of Libernet.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
