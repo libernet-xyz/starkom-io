@@ -1,3 +1,14 @@
 @import "tailwindcss";
 @import "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
+
+@theme {
+  --color-starkom-bg: #0a0a08;
+  --color-starkom-ink: #f4f2ee;
+  --color-starkom-panel: #ffffff;
+  --color-starkom-panel-ink: #14140f;
+  --color-starkom-accent: #3b6ef6;
+
+  --font-display: var(--font-stack-sans-headline), var(--font-inter), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
